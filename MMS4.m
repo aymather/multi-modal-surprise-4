@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Initiate
 addpath(genpath(fileparts(which('MMS4.m'))));
-%addpath(genpath('/home/guest/Documents/MATLAB/eeg/shared/handles'));clc; clear;
+addpath(genpath('/home/guest/Documents/MATLAB/eeg/shared/handles'));clc; clear;
 
 % Subject info
 data = MMS4_data;
