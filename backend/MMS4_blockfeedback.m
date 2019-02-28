@@ -26,7 +26,7 @@ if it == size(trialseq,1) || trialseq(it,id.blo) ~= trialseq(it+1,id.blo)
     gort = round(mean(cortrials(:,id.rt)));
 
     % disp
-    DrawFormattedText(OW, ['Reaction time: ' num2str(gort*1000) ' ms'], 'center', 4.5*SIZ, COL); % set text
+    DrawFormattedText(OW, ['Reaction time: ' num2str(gort) ' ms'], 'center', 4.5*SIZ, COL); % set text
     DrawFormattedText(OW, ['Errors: ' num2str(size(errtrials,1))], 'center', 5.5*SIZ, COL); % set text
     DrawFormattedText(OW, ['Misses: ' num2str(size(misstrials,1))], 'center', 6.5*SIZ, COL); % set text
 
